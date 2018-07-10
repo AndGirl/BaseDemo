@@ -7,11 +7,11 @@
     android:layout_height="match_parent"
     tools:context="com.atsgg.mycustomview.MainActivity">
 
-    <android.support.v4.view.ViewPager
+    <com.atsgg.mycustomview.BannerViewPager
         android:id="@+id/vp_main_image"
         android:layout_width="match_parent"
         android:layout_height="200dp">
-    </android.support.v4.view.ViewPager>
+    </com.atsgg.mycustomview.BannerViewPager>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,16 +19,6 @@
         android:layout_alignBottom="@id/vp_main_image"
         android:background="#44a6a3a3"
         android:orientation="vertical">
-
-        <TextView
-            android:padding="3dp"
-            android:id="@+id/tv_main_title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="姚大傻真傻子"
-            android:textColor="#FFFFFF"
-            android:textSize="14sp"/>
 
         <LinearLayout
             android:layout_marginBottom="3dp"
