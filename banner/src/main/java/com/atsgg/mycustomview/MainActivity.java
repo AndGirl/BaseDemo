@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private int lastPosition = 1;
     private int currentItem;
     private WeakHandler handler = new WeakHandler();
-    private long delayTime = 5000;
+    private long delayTime = 1500;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
